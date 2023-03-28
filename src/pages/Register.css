@@ -1,0 +1,56 @@
+.register{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: skyblue;
+}
+.registerform{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 15px;
+}
+.registerform h1{
+    font-size: 2rem;
+    color: purple;
+}
+.registerform h6{
+    color: purple;
+}
+.registerform input{
+    border: none;
+    outline: none;
+    color: gray;
+    height: 1.2rem;
+}
+.registerform hr{
+    color: silver;
+    height: 1.2px;
+    width: 12rem;
+}
+.registerform button{
+    padding: 0.8rem;
+    background-color: purple;
+    width: 12rem;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.registerform p{
+    color: gray;
+}
+.registerform p span{
+    color: lightblue;
+    cursor: pointer;
+}
+.registerform span{
+    margin-left: -4rem;
+    color: skyblue;
+    margin: 1rem 0;
+    cursor: pointer;
+}
